@@ -1,6 +1,6 @@
 # Comp469_finalproject
 
-An application of retro gym. /
+An application of retro gym.
 Attempt different baseline algorithms available on OpenAI.
 
 ## Getting Started
