@@ -50,7 +50,7 @@ pip install gym-retro
 ### 5. Baselines
 
 ```
-clone this where you feel store your projects
+clone this where you store your projects
 
 git clone https://github.com/openai/baselines.git
 cd baselines
