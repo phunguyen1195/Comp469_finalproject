@@ -31,10 +31,53 @@ https://www.anaconda.com/download/#linux
 conda create --name gym-retro python=3.5
 source activate gym-retro
 pip install --ignore-installed --upgrade \ https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.8.0-cp35-cp35m-linux_x86_64.whl
-
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+## 3. Gym
+
+```
+pip install gym
+```
+
+## 4. Retro Gym
+
+```
+pip install gym-retro
+```
+
+## 5. Baselines
+
+```
+clone this where you feel store your projects
+
+git clone https://github.com/openai/baselines.git
+cd baselines
+pip install -e .
+```
+
+## 6. Import ROMS
+After purchase your game on Steam use the below command to import your rom
+
+```
+python -m retro.import.sega_classics
+```
+
+## 7. Opencv
+
+```
+pip install opencv-python
+```
+## 7. anyrl library
+
+```
+pip install anyrl 
+```
+
+## 8. Clone this repository
+
+```
+pip install anyrl 
+```
 
 ## Running the tests
 
