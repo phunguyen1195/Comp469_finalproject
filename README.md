@@ -8,6 +8,7 @@ Attempt different baseline algorithms available on OpenAI.
 ### Prerequisites
 
 ```
+Anaconda
 Tensorflow
 Retro Gym
 Gym
@@ -18,18 +19,19 @@ in this I chose "Sonic The Hedgehog 2"
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+## 1. Anaconda 3.6 for Linux
 
 ```
-Give the example
+https://www.anaconda.com/download/#linux
 ```
 
-And repeat
+## 2. Tensorflow
 
 ```
-until finished
+conda create --name gym-retro python=3.5
+source activate gym-retro
+pip install --ignore-installed --upgrade \ https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.8.0-cp35-cp35m-linux_x86_64.whl
+
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
