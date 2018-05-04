@@ -7,10 +7,13 @@ Attempt different baseline algorithms available on OpenAI.
 
 ### Prerequisites
 
-
-
 ```
-Give examples
+Tensorflow
+Retro Gym
+Gym
+Baselines
+ROMS from this package https://store.steampowered.com/sub/102625/
+in this I chose "Sonic The Hedgehog 2"
 ```
 
 ### Installing
